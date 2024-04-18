@@ -19,7 +19,6 @@ font pango:mono 9
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-# Window borders
 new_window pixel 0
 
 #
@@ -175,10 +174,7 @@ mode "resize" {
         bindsym Escape mode "default"
 }
 
-bar {
-        status_command i3status
-        position top
-}
+exec_always sh ~/.config/polybar/launch.sh
 
 #hide_edge_borders both
 
@@ -187,4 +183,7 @@ bindsym $mod+Shift+x exec i3lock --color="$background"
 
 exec sh ~/projects/snippets/shell/primary_monitor.sh
 
-exec_always feh --bg-fill ~/.config/wallpaper.jpg ~/.config/vertical-wallpaper.jpg
+exec_always feh --bg-fill ~/.config/wallpaper.jpg ~/.config/vertical-wallpaper.png
+
+# Picom
+exec_always --no-startup-id picom &

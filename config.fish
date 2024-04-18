@@ -44,6 +44,9 @@ source /opt/asdf-vm/asdf.fish
 # GPG
 export GPG_TTY=(tty)
 
+# Swap escape and caps lock
+setxkbmap -option "caps:swapescape"
+
 function fish_prompt
     if test $status -eq 0
         set_color green
