@@ -1,5 +1,5 @@
 [window]
-opacity = 1
+opacity = 0.98
 
 [colors.bright]
 black = "0x767676"
@@ -29,4 +29,4 @@ foreground = "0xcccccc"
 size = 13.5
 
 [font.normal]
-family = "monospace"
+family = "monaco"

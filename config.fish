@@ -7,6 +7,7 @@ export EDITOR=emacs
 export GIT_EDITOR=vim
 export PROJECTS=$HOME/projects
 export SCRIPTS=$PROJECTS/snippets/shell
+export PATH="$PATH:/home/eaneto/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
 
 # Shortcuts
 abbr v "nvim"
@@ -43,6 +44,14 @@ source /opt/asdf-vm/asdf.fish
 
 # GPG
 export GPG_TTY=(tty)
+
+# SSH
+if test -z (pgrep ssh-agent)
+  eval (ssh-agent -c)
+  set -Ux SSH_AUTH_SOCK $SSH_AUTH_SOCK
+  set -Ux SSH_AGENT_PID $SSH_AGENT_PID
+  set -Ux SSH_AUTH_SOCK $SSH_AUTH_SOCK
+end
 
 # Swap escape and caps lock
 setxkbmap -option "caps:swapescape"

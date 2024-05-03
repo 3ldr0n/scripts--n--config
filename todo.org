@@ -1,0 +1,9 @@
+* Frutiger Aero Theme
+
+TODO:
+- rofi
+  - Blue transparent background
+  - Gradient
+- polybar
+- i3 windows
+- alacritty

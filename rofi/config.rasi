@@ -1,0 +1,29 @@
+configuration {
+    show-icons: true;
+    sidebar-mode: false;
+
+    kb-row-up: "Alt+k";
+    kb-row-down: "Alt+j";
+}
+
+* {
+    // Default bg is transparent.
+    background-color: transparent;
+    // Default text is white
+    text-color:       white;
+    spacing:          0;
+}
+
+window {
+    font: "Monaco 16";
+    fullscreen: false;
+    background-image: linear-gradient(#87CEEB, #FFFFFF);
+}
+
+mainbox {
+    padding: 10px;
+}
+
+element.selected.active {
+    text-color: #9575cd;
+}

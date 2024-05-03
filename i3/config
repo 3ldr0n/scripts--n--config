@@ -36,7 +36,7 @@ bindsym $mod+Return								exec $term
 bindsym $mod+e									exec emacs
 
 # start dmenu.
-bindsym $mod+d									exec dmenu_run
+bindsym $mod+d									exec rofi -show drun
 
 # start browser.
 bindsym $mod+y                                  exec $browser
@@ -187,3 +187,6 @@ exec_always feh --bg-fill ~/.config/wallpaper.jpg ~/.config/vertical-wallpaper.p
 
 # Picom
 exec_always --no-startup-id picom &
+
+# Gaps
+gaps inner 5px

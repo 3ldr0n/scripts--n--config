@@ -6,7 +6,7 @@
 
 (set-face-attribute 'default nil
                     :family "Monaco"
-                    :height 130
+                    :height 135
                     :weight 'normal
                     :width 'normal)
 
@@ -19,7 +19,7 @@ removes scroll bar and display line numbers."
   (menu-bar-mode -1)
   (scroll-bar-mode -1)
   (global-display-line-numbers-mode)
-  (setq display-line-numbers-type 'relative)
+  (setq-default display-line-numbers-type 'relative)
   (show-paren-mode 1)
   (global-hl-line-mode))
 
