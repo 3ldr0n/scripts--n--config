@@ -28,15 +28,17 @@ ln -s ~/projects/dotfiles/.emacs.d/snippets/org-mode/begsrc ~/.emacs.d/snippets/
 ln -s ~/projects/dotfiles/.zshrc ~/
 
 # Fish
+mkdir -p ~/.config/fish
+
 ln -s ~/projects/dotfiles/config.fish ~/.config/fish/
 
-# i3/i3status
+# Sway
 
-mkdir -p ~/.config/i3
-mkdir -p ~/.config/i3status
+mkdir -p ~/.config/sway
+mkdir -p ~/.config/swaybar
 
-ln -s ~/projects/dotfiles/i3/config ~/.config/i3
-ln -s ~/projects/dotfiles/i3status/config.desktop ~/.config/i3status/config
+ln -s ~/projects/dotfiles/sway/config ~/.config/sway
+ln -s ~/projects/dotfiles/swaybar/config.laptop ~/.config/swaybar/config
 
 # tmux
 ln -s ~/projects/dotfiles/.tmux.conf ~/
@@ -53,4 +55,6 @@ ln -s ~/projects/dotfiles/.gitignore_global ~/
 git config --global core.excludesFile '~/.gitignore_global'
 
 # zathura
+mkdir ~/.config/zathura/
+
 ln -s ~/projects/dotfiles/zathura/zathurarc ~/.config/zathura/

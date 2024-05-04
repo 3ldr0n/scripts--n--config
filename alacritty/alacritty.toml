@@ -23,7 +23,7 @@ background = "0x0c0c0c"
 foreground = "0xcccccc"
 
 [font]
-size = 13.5
+size = 17
 
 [font.normal]
-family = "monospace"
+family = "monaco"
