@@ -6,9 +6,9 @@
 
 (set-face-attribute 'default nil
                     :family "Monaco"
-                    :height 150
+                    :height 170
                     :weight 'normal
-                    :width 'normal)
+                    :width 'normal
 
 (defun visual-config-modes()
   "Visual modes. Removes tool and menu bar,
