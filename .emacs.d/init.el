@@ -25,8 +25,11 @@
  '(elfeed-feeds
    '("http://peter.eisentraut.org/feed.xml" "https://feeds.feedburner.com/martinkl" "https://nullprogram.com/feed/" "https://rachelbythebay.com/w/atom.xml" "https://jvns.ca/atom.xml"))
  '(package-selected-packages
-   '(rust-mode markdown-mode evil elfeed-org elfeed pet dashboard ellama deadgrep flx citar-embark citar exec-path-from-shell writeroom-mode protobuf-mode dockerfile-mode latex-preview-pane jinja2-mode olivetti web-mode hl-todo ivy-xref evil-collection flycheck counsel evil-surround diff-hl python-isort pyimport python-black ansible monokai-theme yasnippet yaml-mode which-key use-package telephone-line rustic ranger org-bullets highlight-indent-guides go-mode evil-matchit company all-the-icons))
- '(pdf-latex-command "xelatex"))
+   '(org-superstar eglot-booster psession fish-mode elfeed-org elfeed pet dashboard deadgrep flx citar-embark citar exec-path-from-shell writeroom-mode protobuf-mode dockerfile-mode latex-preview-pane olivetti web-mode hl-todo ivy-xref evil-collection flycheck counsel evil-surround diff-hl python-isort pyimport python-black ansible monokai-theme yasnippet yaml-mode which-key use-package telephone-line rustic highlight-indent-guides go-mode evil-matchit company all-the-icons))
+ '(package-vc-selected-packages
+   '((eglot-booster :vc-backend Git :url "https://github.com/jdtsmith/eglot-booster")))
+ '(pdf-latex-command "xelatex")
+ '(safe-local-variable-values '((flycheck-checker . flake8) (flycheck-checker . mypy))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

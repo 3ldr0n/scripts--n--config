@@ -8,6 +8,7 @@ export GIT_EDITOR=vim
 export PROJECTS=$HOME/projects
 export SCRIPTS=$PROJECTS/snippets/shell
 export PATH="$PATH:/home/eaneto/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/"
+export PATH="$PATH:/home/eaneto/.local/bin"
 
 # Shortcuts
 abbr v "nvim"
