@@ -168,6 +168,4 @@ input "type:keyboard" {
 # swaylock config
 bindsym $mod+Shift+x exec swaylock --color="$background"
 
-exec sh ~/projects/snippets/shell/primary_monitor.sh
-
-exec_always feh --bg-fill ~/.config/wallpaper.jpg
+output * background ~/.config/wallpaper.jpg fill

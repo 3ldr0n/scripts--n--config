@@ -8,7 +8,7 @@
                     :family "Monaco"
                     :height 170
                     :weight 'normal
-                    :width 'normal
+                    :width 'normal)
 
 (defun visual-config-modes()
   "Visual modes. Removes tool and menu bar,
