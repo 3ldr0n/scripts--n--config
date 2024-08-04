@@ -35,10 +35,11 @@ ln -s ~/projects/dotfiles/config.fish ~/.config/fish/
 # Sway
 
 mkdir -p ~/.config/sway
-mkdir -p ~/.config/swaybar
+mkdir -p ~/.config/waybar
 
 ln -s ~/projects/dotfiles/sway/config ~/.config/sway
-ln -s ~/projects/dotfiles/swaybar/config.laptop ~/.config/swaybar/config
+ln -s ~/projects/dotfiles/waybar/config ~/.config/waybar/config
+ln -s ~/projects/dotfiles/waybar/style.css ~/.config/waybar/style.css
 
 # tmux
 ln -s ~/projects/dotfiles/.tmux.conf ~/

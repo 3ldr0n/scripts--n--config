@@ -1,7 +1,3 @@
-# i3 config file (v4)
-#
-# Please see http://i3wm.org/docs/userguide.html for a complete reference!
-
 set $mod		                                Mod4
 set $term		                                alacritty -e tmux
 set $browser 						            firefox
@@ -36,8 +32,8 @@ bindsym $mod+Return								exec $term
 # start emacs.
 bindsym $mod+e									exec emacs
 
-# start dmenu.
-bindsym $mod+d									exec dmenu_run
+# start wmenu.
+bindsym $mod+d									exec bemenu-run -p "" --tb "#285577" --hb "#285577" --tf "#eeeeee" --hf "#eeeeee" --nf "#bbbbbb" -H 40 --fn 'Monaco'
 
 # start browser.
 bindsym $mod+y                                  exec $browser
@@ -136,19 +132,13 @@ bindsym $mod+Shift+9                            move container to workspace $wor
 bindsym $mod+Shift+0                            move container to workspace $workspace10
 
 # reload the configuration file
-bindsym $mod+Shift+r+c							"exec swaymsg reload"
+bindsym $mod+Shift+r							exec "swaymsg reload"
 
-# exit i3 (logs you out of your X session)
+# exit sway (logs you out of your session)
 bindsym $mod+Shift+e exec "swaymsg exit"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
-
-        # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
         bindsym l resize shrink width 10 px or 10 ppt
         bindsym k resize grow height 10 px or 10 ppt
         bindsym j resize shrink height 10 px or 10 ppt
