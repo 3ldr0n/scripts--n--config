@@ -7,6 +7,7 @@ export EDITOR=emacs
 export GIT_EDITOR=vim
 export PROJECTS=$HOME/projects
 export SCRIPTS=$PROJECTS/snippets/shell
+export PATH="$PATH:$HOME/.local/bin"
 
 # Shortcuts
 abbr v "nvim"
