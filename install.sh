@@ -24,9 +24,6 @@ ln -s ~/projects/dotfiles/.emacs.d/snippets ~/.emacs.d/snippets
 ln -s ~/projects/dotfiles/.emacs.d/snippets/org-mode/begcm ~/.emacs.d/snippets/org-mode
 ln -s ~/projects/dotfiles/.emacs.d/snippets/org-mode/begsrc ~/.emacs.d/snippets/org-mode
 
-# Zsh
-ln -s ~/projects/dotfiles/.zshrc ~/
-
 # Fish
 mkdir -p ~/.config/fish
 
