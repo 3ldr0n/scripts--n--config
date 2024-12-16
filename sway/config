@@ -158,4 +158,9 @@ input "type:keyboard" {
 # swaylock config
 bindsym $mod+Shift+x exec swaylock --color="$background"
 
+# Wallpaper
 output * background ~/.config/wallpaper.png fill
+
+# Notifications
+exec swaync
+bindsym $mod+Shift+n exec swaync-client -t -sw
