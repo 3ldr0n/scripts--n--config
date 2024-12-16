@@ -45,7 +45,7 @@ bindsym $mod+o									exec transmission-gtk
 bindsym $mod+q									exec alacritty -e ranger
 
 # start spotify
-bindsym $mod+Shift+s							exec spotify
+bindsym $mod+Shift+s							exec spotify-launcher
 
 # change focus
 bindsym $mod+h									focus left
@@ -158,4 +158,4 @@ input "type:keyboard" {
 # swaylock config
 bindsym $mod+Shift+x exec swaylock --color="$background"
 
-output * background ~/.config/wallpaper.jpg fill
+output * background ~/.config/wallpaper.png fill
