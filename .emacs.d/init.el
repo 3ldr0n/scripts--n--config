@@ -25,7 +25,7 @@
  '(elfeed-feeds
    '("https://without.boats/index.xml" "http://peter.eisentraut.org/feed.xml" "https://feeds.feedburner.com/martinkl" "https://nullprogram.com/feed/" "https://rachelbythebay.com/w/atom.xml" "https://jvns.ca/atom.xml"))
  '(package-selected-packages
-   '(eldoc-box org-superstar eglot-booster psession fish-mode elfeed-org elfeed pet dashboard deadgrep flx citar-embark citar exec-path-from-shell writeroom-mode protobuf-mode dockerfile-mode latex-preview-pane olivetti web-mode hl-todo ivy-xref evil-collection flycheck counsel evil-surround diff-hl python-isort pyimport python-black ansible monokai-theme yasnippet yaml-mode which-key use-package telephone-line rustic highlight-indent-guides go-mode evil-matchit company all-the-icons))
+   '(yasnippet yaml-mode which-key web-mode terraform-mode telephone-line rustic python-isort python-black pyimport psession protobuf-mode pet org-superstar monokai-theme ivy-xref hl-todo highlight-indent-guides go-mode flx fish-mode exec-path-from-shell evil-surround evil-matchit evil-collection elfeed dockerfile-mode diff-hl deadgrep dashboard counsel company ansible all-the-icons))
  '(pdf-latex-command "xelatex")
  '(safe-local-variable-values '((flycheck-checker . flake8) (flycheck-checker . mypy))))
 (custom-set-faces
